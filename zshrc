@@ -21,6 +21,7 @@ alias grep='grep --colour=auto'
 alias nyan='nc -v nyancat.dakko.us 23'
 alias screenfetch='screenfetch -t -c 09,16'
 alias hypnotoad='./Public/colours.sh & cat Public/hypnotoad.txt'
+alias spaceinvaders='./Public/space-invaders/space.sh'
 
 case $TERM in
     xterm*)
