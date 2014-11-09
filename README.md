@@ -1,3 +1,3 @@
 zpresto_configs
 ===============
-my zprezton config files
+my zprezto config files
