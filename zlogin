@@ -20,3 +20,5 @@ if (( $+commands[fortune] )); then
   print
 fi
 
+export NO_AT_BRIDGE=1
+
