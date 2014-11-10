@@ -19,7 +19,8 @@ HISTFILE=~/.zsh_history
 alias ls='ls --color=auto'
 alias grep='grep --colour=auto'
 alias nyan='nc -v nyancat.dakko.us 23'
-alias screenfetch='screenfetch -t -c 09,16'
+#alias screenfetch='screenfetch -t -c 09,16'
+alias screenfetch='./Public/screenFetch/screenfetch-dev'
 alias hypnotoad='./Public/colours.sh & cat Public/hypnotoad.txt'
 alias spaceinvaders='./Public/space-invaders/space.sh'
 
