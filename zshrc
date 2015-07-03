@@ -30,3 +30,6 @@ case $TERM in
         precmd () {print -Pn "\e]0;%n@%m: %~\a"}
         ;;
 esac
+
+unset GREP_OPTIONS
+alias grep='grep --color=auto'
