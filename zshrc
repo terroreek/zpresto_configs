@@ -30,6 +30,7 @@ alias hypnotoad='~/Public/colours.sh & cat ~/Public/hypnotoad.txt'
 alias spaceinvaders='~/Public/space-invaders/space.sh'
 alias randompassword='< /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c8'
 alias pipes='Public/pipes.sh/pipes.sh -p 8'
+alias ciscoconsole='sudo minicom'
 
 case $TERM in
     xterm*)
