@@ -25,7 +25,7 @@ alias ls='ls --color=auto'
 alias grep='grep --colour=auto'
 alias nyan='nc -v nyancat.dakko.us 23'
 #alias screenfetch='screenfetch -t -c 09,16'
-alias screenfetch='~/Public/screenfetch/screenfetch-dev -t'
+#alias screenfetch='~/Public/screenfetch/screenfetch-dev -t'
 alias hypnotoad='~/Public/colours.sh & cat ~/Public/hypnotoad.txt'
 alias spaceinvaders='~/Public/space-invaders/space.sh'
 alias randompassword='< /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c8'
@@ -40,3 +40,5 @@ esac
 
 unset GREP_OPTIONS
 alias grep='grep --color=auto'
+
+neofetch
