@@ -36,6 +36,9 @@ alias tanks='~/Public/color-scripts/color-scripts/tanks'
 alias darthvader='~/Public/color-scripts/color-scripts/darthvader'
 alias pacman='~/Public/color-scripts/color-scripts/pacman'
 alias tiefighter='~/Public/color-scripts/color-scripts/tiefighter2'
+alias zenmonitor='~/Public/zenmonitor/zenmonitor'
+alias prime95='~/Public/prime95/mprime'
+alias blender='/opt/blender-benchmark-1.0b2-linux-glibc219-x86_64/blender-benchmark'
 
 case $TERM in
     xterm*)
