@@ -49,4 +49,6 @@ esac
 unset GREP_OPTIONS
 alias grep='grep --color=auto'
 
-neofetch
+#neofetch
+#export PATH=$PATH:/home/terroreek/.spicetify
+fastfetch

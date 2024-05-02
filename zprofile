@@ -75,3 +75,12 @@ if [[ ! -d "$TMPPREFIX" ]]; then
   mkdir -p "$TMPPREFIX"
 fi
 
+#
+#Wayland fix for gamescope and games
+#
+if [ "$XDG_SESSION_TYPE" = wayland ] ; then
+    if [[ $PATH != *"games"* ]]; then
+        export PATH="/usr/local/games:$PATH"
+        export PATH="/usr/games:$PATH"
+    fi
+fi
