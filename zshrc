@@ -5,6 +5,7 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
+
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
@@ -39,6 +40,7 @@ alias tiefighter='~/Public/color-scripts/color-scripts/tiefighter2'
 alias zenmonitor='~/Public/zenmonitor/zenmonitor'
 alias prime95='~/Public/prime95/mprime'
 alias blender='/opt/blender-benchmark-1.0b2-linux-glibc219-x86_64/blender-benchmark'
+alias cat='batcat'
 
 case $TERM in
     xterm*)
@@ -48,6 +50,9 @@ esac
 
 unset GREP_OPTIONS
 alias grep='grep --color=auto'
+
+# Enable autocomplete 
+#autoload -U compinit; compinit
 
 #neofetch
 #export PATH=$PATH:/home/terroreek/.spicetify
